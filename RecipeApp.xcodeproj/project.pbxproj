@@ -7,17 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		70179B471F685A79009E9D44 /* TagRecipeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70179B461F685A79009E9D44 /* TagRecipeViewController.swift */; };
+		70179B491F6868B8009E9D44 /* SearchRecipeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70179B481F6868B8009E9D44 /* SearchRecipeViewController.swift */; };
+		70179B4B1F6868F2009E9D44 /* NewRecipeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70179B4A1F6868F2009E9D44 /* NewRecipeViewController.swift */; };
+		70179B4D1F686962009E9D44 /* BrowseRecipeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70179B4C1F686962009E9D44 /* BrowseRecipeViewController.swift */; };
+		70179B4F1F6878EA009E9D44 /* NewRecipe2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70179B4E1F6878EA009E9D44 /* NewRecipe2ViewController.swift */; };
+		70179B511F688947009E9D44 /* RecipeStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70179B501F688947009E9D44 /* RecipeStore.swift */; };
+		703E19221F64B40C004B661D /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 703E19211F64B40C004B661D /* Recipe.swift */; };
 		70C06CF01F5862FA00BD407C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70C06CEF1F5862FA00BD407C /* AppDelegate.swift */; };
-		70C06CF21F5862FA00BD407C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70C06CF11F5862FA00BD407C /* ViewController.swift */; };
+		70C06CF21F5862FA00BD407C /* MainScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70C06CF11F5862FA00BD407C /* MainScreenViewController.swift */; };
 		70C06CF51F5862FA00BD407C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70C06CF31F5862FA00BD407C /* Main.storyboard */; };
 		70C06CF71F5862FA00BD407C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70C06CF61F5862FA00BD407C /* Assets.xcassets */; };
 		70C06CFA1F5862FA00BD407C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70C06CF81F5862FA00BD407C /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		70179B461F685A79009E9D44 /* TagRecipeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TagRecipeViewController.swift; sourceTree = "<group>"; };
+		70179B481F6868B8009E9D44 /* SearchRecipeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchRecipeViewController.swift; sourceTree = "<group>"; };
+		70179B4A1F6868F2009E9D44 /* NewRecipeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewRecipeViewController.swift; sourceTree = "<group>"; };
+		70179B4C1F686962009E9D44 /* BrowseRecipeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BrowseRecipeViewController.swift; sourceTree = "<group>"; };
+		70179B4E1F6878EA009E9D44 /* NewRecipe2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewRecipe2ViewController.swift; sourceTree = "<group>"; };
+		70179B501F688947009E9D44 /* RecipeStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecipeStore.swift; sourceTree = "<group>"; };
+		703E19211F64B40C004B661D /* Recipe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
 		70C06CEC1F5862FA00BD407C /* RecipeApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RecipeApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		70C06CEF1F5862FA00BD407C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		70C06CF11F5862FA00BD407C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		70C06CF11F5862FA00BD407C /* MainScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenViewController.swift; sourceTree = "<group>"; };
 		70C06CF41F5862FA00BD407C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		70C06CF61F5862FA00BD407C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		70C06CF91F5862FA00BD407C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -55,8 +69,15 @@
 			isa = PBXGroup;
 			children = (
 				70C06CEF1F5862FA00BD407C /* AppDelegate.swift */,
-				70C06CF11F5862FA00BD407C /* ViewController.swift */,
+				70C06CF11F5862FA00BD407C /* MainScreenViewController.swift */,
+				703E19211F64B40C004B661D /* Recipe.swift */,
 				70C06CF31F5862FA00BD407C /* Main.storyboard */,
+				70179B4E1F6878EA009E9D44 /* NewRecipe2ViewController.swift */,
+				70179B501F688947009E9D44 /* RecipeStore.swift */,
+				70179B4C1F686962009E9D44 /* BrowseRecipeViewController.swift */,
+				70179B4A1F6868F2009E9D44 /* NewRecipeViewController.swift */,
+				70179B481F6868B8009E9D44 /* SearchRecipeViewController.swift */,
+				70179B461F685A79009E9D44 /* TagRecipeViewController.swift */,
 				70C06CF61F5862FA00BD407C /* Assets.xcassets */,
 				70C06CF81F5862FA00BD407C /* LaunchScreen.storyboard */,
 				70C06CFB1F5862FA00BD407C /* Info.plist */,
@@ -136,8 +157,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				70C06CF21F5862FA00BD407C /* ViewController.swift in Sources */,
+				703E19221F64B40C004B661D /* Recipe.swift in Sources */,
+				70179B491F6868B8009E9D44 /* SearchRecipeViewController.swift in Sources */,
+				70C06CF21F5862FA00BD407C /* MainScreenViewController.swift in Sources */,
+				70179B4D1F686962009E9D44 /* BrowseRecipeViewController.swift in Sources */,
+				70179B4F1F6878EA009E9D44 /* NewRecipe2ViewController.swift in Sources */,
 				70C06CF01F5862FA00BD407C /* AppDelegate.swift in Sources */,
+				70179B471F685A79009E9D44 /* TagRecipeViewController.swift in Sources */,
+				70179B4B1F6868F2009E9D44 /* NewRecipeViewController.swift in Sources */,
+				70179B511F688947009E9D44 /* RecipeStore.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,6 +327,7 @@
 				70C06D001F5862FA00BD407C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
